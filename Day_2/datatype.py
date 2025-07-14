@@ -18,7 +18,7 @@ t= ["apple"]
 print(type(t))
 # list datatype
 
-s= ("apple")
+s= ('apple','Cherry')
 print(type(s))
 # tuple datatype
 
@@ -26,7 +26,7 @@ c= range(6)
 print(type(c))
 # range datatype
 
-k = {"name" : "PAnkaj", "age" :18}
+k = {"name" : "Pankaj", "age" :18}
 print(type(k))
 # dict datatype
 
@@ -37,6 +37,7 @@ print(type(z))
 d = bytearray(5)
 print(type(d))
 # bytearray datatype
+
 f = memoryview(bytes(5))
 print(type(f))	
 # memoryview datatype
