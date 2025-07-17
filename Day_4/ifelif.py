@@ -1,7 +1,7 @@
 x=27
 if x>0:
-print(positive)
+ print("positive")
 elif x<0:
-print(negative)
+ print("negative")
 else :
-print(zero)
+ print("zero")
