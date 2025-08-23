@@ -526,7 +526,6 @@ if __name__ == '__main__':
     if inspection_system is None:
         print("❌ ERROR: Inspection system failed to initialize")
     else:
-        print(f"📂 Model path: {os.path.join(Config.MODEL_DIR, 'best_model.h5')}")
         print(f"🤖 Model loaded: {inspection_system.model_loaded}")
         
         if not inspection_system.model_loaded:
